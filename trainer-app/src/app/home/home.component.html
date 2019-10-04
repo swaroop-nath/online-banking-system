@@ -1,0 +1,14 @@
+<table class="table table-striped table-hover">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Stream</th>
+    <th>Fees</th>
+  </tr>
+  <tr *ngFor = "let trainer of trainers">
+    <td>{{trainer.id}}</td>
+    <td>{{trainer.name}}</td>
+    <td>{{trainer.stream}}</td>
+    <td>{{trainer.fees}}</td>
+  </tr>
+</table>
